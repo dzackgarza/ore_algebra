@@ -15,11 +15,11 @@ Lower-level reimplementation of key subroutines of naive_sum
 # http://www.gnu.org/licenses/
 
 from libc.stdlib cimport malloc, free
-from sage.libs.arb.types cimport *
-from sage.libs.arb.mag cimport *
-from sage.libs.arb.arb cimport *
-from sage.libs.arb.acb cimport *
-from sage.libs.arb.acb_poly cimport *
+from sage.libs.flint.types cimport *
+from sage.libs.flint.mag cimport *
+from sage.libs.flint.arb cimport *
+from sage.libs.flint.acb cimport *
+from sage.libs.flint.acb_poly cimport *
 from sage.rings.complex_arb cimport ComplexBall
 from sage.rings.polynomial.polynomial_complex_arb cimport Polynomial_complex_arb
 from sage.rings.real_arb cimport RealBall

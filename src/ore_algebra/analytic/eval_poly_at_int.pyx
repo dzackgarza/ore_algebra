@@ -10,9 +10,9 @@ The functions taking polynomials with coefficients in number fields
 
 from cpython.long cimport PyLong_AsLong
 
-from sage.libs.arb.acb cimport *
-from sage.libs.arb.acb_poly cimport *
-from sage.libs.arb.arb cimport *
+from sage.libs.flint.acb cimport *
+from sage.libs.flint.acb_poly cimport *
+from sage.libs.flint.arb cimport *
 from sage.libs.flint.fmpq_poly cimport *
 from sage.libs.flint.fmpz cimport *
 from sage.libs.flint.fmpz_poly cimport *

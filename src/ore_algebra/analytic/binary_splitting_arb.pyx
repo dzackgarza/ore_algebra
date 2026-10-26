@@ -14,10 +14,10 @@ Lower-level reimplementation of key subroutines of binary_splitting
 #
 # http://www.gnu.org/licenses/
 
-from sage.libs.arb.types cimport *
-from sage.libs.arb.acb cimport *
-from sage.libs.arb.acb_poly cimport *
-from sage.libs.arb.acb_mat cimport *
+from sage.libs.flint.types cimport *
+from sage.libs.flint.acb cimport *
+from sage.libs.flint.acb_poly cimport *
+from sage.libs.flint.acb_mat cimport *
 from sage.libs.flint.fmpz cimport *
 from sage.libs.flint.fmpq_poly cimport *
 from sage.libs.flint.fmpz_poly cimport *
